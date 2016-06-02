@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sqV-I2-8LN">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -60,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3600.5" y="264.5"/>
+            <point key="canvasLocation" x="4412.5" y="264.5"/>
         </scene>
         <!--What is your name?-->
         <scene sceneID="Sj6-he-CWj">
@@ -95,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mdn-2f-a0n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4079.5" y="264.5"/>
+            <point key="canvasLocation" x="4891.5" y="264.5"/>
         </scene>
         <!--What is your quest?-->
         <scene sceneID="3KP-Po-vGW">
@@ -130,7 +130,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PuP-ne-NHa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4571.5" y="264.5"/>
+            <point key="canvasLocation" x="5383.5" y="264.5"/>
         </scene>
         <!--Gorge Of Eternal Peril View Controller-->
         <scene sceneID="8ng-5x-gLI">
@@ -201,7 +201,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="84i-M7-uzy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5064.5" y="264.5"/>
+            <point key="canvasLocation" x="5876.5" y="264.5"/>
         </scene>
         <!--Go on. Off you go.-->
         <scene sceneID="Xp3-xq-NoC">
@@ -234,7 +234,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D1t-s6-dbU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5573.5" y="264.5"/>
+            <point key="canvasLocation" x="6385.5" y="264.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="379-lQ-6Qc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sqV-I2-8LN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eCh-OW-gfg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="sRp-Vd-SJR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jFn-ce-A2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3600" y="264"/>
         </scene>
     </scenes>
 </document>
