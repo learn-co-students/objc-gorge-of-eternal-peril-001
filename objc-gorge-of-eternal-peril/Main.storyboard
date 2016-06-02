@@ -158,7 +158,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jV3-Em-d6i">
                                 <rect key="frame" x="117" y="354" width="141" height="30"/>
-                                <state key="normal" title="Accept your fate"/>
+                                <state key="normal" title="Accept your fate!"/>
                                 <connections>
                                     <action selector="acceptYourFateTapped:" destination="pwh-Zw-Z4U" eventType="touchUpInside" id="6h9-gg-3iv"/>
                                 </connections>
